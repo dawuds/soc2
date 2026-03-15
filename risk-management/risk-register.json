@@ -1,0 +1,64 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated indicative risk register for SOC 2 engagements. Risk scores are illustrative.",
+  "title": "SOC 2 Risk Register",
+  "description": "Register of risks to Trust Services Criteria compliance",
+  "risks": [
+    {
+      "id": "SR-001", "title": "Unauthorized Access to Production Systems", "description": "Unauthorized individuals gain access to production systems due to inadequate access controls or compromised credentials.",
+      "category": "Security", "criteriaRef": "CC6.1", "likelihood": 3, "impact": 5, "inherentRisk": 15,
+      "existingControls": ["MFA on all production access", "Role-based access control", "Quarterly access reviews"],
+      "residualLikelihood": 2, "residualImpact": 4, "residualRisk": 8, "treatment": "mitigate",
+      "treatmentPlan": "Implement just-in-time access for production, deploy UEBA, enhance access review automation.", "owner": "IAM Manager", "reviewDate": "2026-Q2"
+    },
+    {
+      "id": "SR-002", "title": "Change Management Bypass", "description": "System changes deployed without proper authorization, testing, or documentation, leading to service disruption or security vulnerabilities.",
+      "category": "Security", "criteriaRef": "CC8.1", "likelihood": 3, "impact": 4, "inherentRisk": 12,
+      "existingControls": ["Formal change control process", "Segregation of duties in deployment", "Change advisory board approval"],
+      "residualLikelihood": 2, "residualImpact": 3, "residualRisk": 6, "treatment": "mitigate",
+      "treatmentPlan": "Implement pipeline-enforced change gates, automate change documentation, deploy drift detection.", "owner": "Change Manager", "reviewDate": "2026-Q2"
+    },
+    {
+      "id": "SR-003", "title": "Extended Service Outage", "description": "Critical service becomes unavailable beyond committed SLA targets due to infrastructure failure or cyber incident.",
+      "category": "Availability", "criteriaRef": "A1.1", "likelihood": 3, "impact": 4, "inherentRisk": 12,
+      "existingControls": ["Multi-AZ deployment", "Auto-scaling", "24/7 monitoring", "Defined runbooks"],
+      "residualLikelihood": 2, "residualImpact": 3, "residualRisk": 6, "treatment": "mitigate",
+      "treatmentPlan": "Implement multi-region failover, reduce RTO target, enhance chaos engineering program.", "owner": "SRE Manager", "reviewDate": "2026-Q2"
+    },
+    {
+      "id": "SR-004", "title": "Data Breach of Customer PII", "description": "Personal information of customers is exposed through technical vulnerability, misconfiguration, or insider threat.",
+      "category": "Privacy", "criteriaRef": "P1", "likelihood": 3, "impact": 5, "inherentRisk": 15,
+      "existingControls": ["Encryption at rest and in transit", "DLP controls", "Access logging", "Privacy impact assessments"],
+      "residualLikelihood": 2, "residualImpact": 4, "residualRisk": 8, "treatment": "mitigate",
+      "treatmentPlan": "Deploy data discovery and classification, enhance DLP rules, implement tokenization for sensitive fields.", "owner": "Privacy Officer", "reviewDate": "2026-Q2"
+    },
+    {
+      "id": "SR-005", "title": "Vendor Service Disruption", "description": "Critical third-party vendor experiences outage or security incident that impacts service delivery.",
+      "category": "Security", "criteriaRef": "CC9.2", "likelihood": 3, "impact": 4, "inherentRisk": 12,
+      "existingControls": ["Vendor due diligence program", "SLA monitoring", "Business continuity plans"],
+      "residualLikelihood": 2, "residualImpact": 3, "residualRisk": 6, "treatment": "mitigate",
+      "treatmentPlan": "Identify and qualify alternative vendors for critical services, enhance vendor monitoring.", "owner": "Vendor Risk Manager", "reviewDate": "2026-Q3"
+    },
+    {
+      "id": "SR-006", "title": "Insufficient Monitoring Coverage", "description": "Security events go undetected due to gaps in monitoring coverage, leading to delayed incident response.",
+      "category": "Security", "criteriaRef": "CC7.2", "likelihood": 3, "impact": 4, "inherentRisk": 12,
+      "existingControls": ["SIEM deployment", "Alert rules", "24/7 SOC staffing"],
+      "residualLikelihood": 2, "residualImpact": 3, "residualRisk": 6, "treatment": "mitigate",
+      "treatmentPlan": "Expand SIEM log sources, implement detection engineering program, conduct purple team exercises.", "owner": "SOC Manager", "reviewDate": "2026-Q2"
+    },
+    {
+      "id": "SR-007", "title": "Processing Integrity Failure", "description": "Data processing errors result in inaccurate outputs affecting customer operations or financial reporting.",
+      "category": "Processing Integrity", "criteriaRef": "PI1.2", "likelihood": 2, "impact": 4, "inherentRisk": 8,
+      "existingControls": ["Input validation", "Processing reconciliation", "Output verification"],
+      "residualLikelihood": 1, "residualImpact": 3, "residualRisk": 3, "treatment": "mitigate",
+      "treatmentPlan": "Implement automated reconciliation checks, enhance data quality monitoring.", "owner": "Application Owner", "reviewDate": "2026-Q3"
+    },
+    {
+      "id": "SR-008", "title": "SOC 2 Observation Period Coverage Gap", "description": "Controls are not operating effectively for the full observation period, resulting in audit exceptions or qualified opinion.",
+      "category": "Audit", "criteriaRef": "CC4.1", "likelihood": 2, "impact": 5, "inherentRisk": 10,
+      "existingControls": ["Continuous monitoring program", "Readiness assessments", "Control owner training"],
+      "residualLikelihood": 1, "residualImpact": 4, "residualRisk": 4, "treatment": "mitigate",
+      "treatmentPlan": "Implement control health dashboard, conduct mid-period readiness checks, automate evidence collection.", "owner": "Internal Audit", "reviewDate": "2026-Q2"
+    }
+  ]
+}

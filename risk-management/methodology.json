@@ -1,0 +1,39 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated risk methodology for SOC 2 engagements. Organizations should adapt to their system description and service commitments.",
+  "title": "SOC 2 Risk Assessment Methodology",
+  "description": "Structured methodology for assessing risks to Trust Services Criteria in SOC 2 engagements.",
+  "framework": "AICPA SOC 2",
+  "approach": "qualitative-quantitative",
+  "scales": {
+    "likelihood": {
+      "levels": [
+        { "score": 1, "label": "Rare", "description": "May occur only in exceptional circumstances", "frequency": "Less than once in 10 years" },
+        { "score": 2, "label": "Unlikely", "description": "Could occur but not expected", "frequency": "Once in 5-10 years" },
+        { "score": 3, "label": "Possible", "description": "Might occur at some time", "frequency": "Once in 2-5 years" },
+        { "score": 4, "label": "Likely", "description": "Will probably occur", "frequency": "Once or more per year" },
+        { "score": 5, "label": "Almost Certain", "description": "Expected to occur frequently", "frequency": "Multiple times per year" }
+      ]
+    },
+    "impact": {
+      "levels": [
+        { "score": 1, "label": "Insignificant", "description": "Minimal impact on service commitments", "examples": ["Brief performance degradation"] },
+        { "score": 2, "label": "Minor", "description": "Limited impact, internal remediation sufficient", "examples": ["Minor SLA deviation"] },
+        { "score": 3, "label": "Moderate", "description": "Noticeable impact on service commitments, customer notification may be required", "examples": ["Partial service outage", "Customer-impacting error"] },
+        { "score": 4, "label": "Major", "description": "Significant impact, SOC 2 exception likely", "examples": ["Extended outage", "Data breach", "Control failure"] },
+        { "score": 5, "label": "Critical", "description": "Severe impact threatening audit opinion", "examples": ["Qualified opinion", "Material breach", "Regulatory action"] }
+      ]
+    }
+  },
+  "riskRating": {
+    "formula": "Likelihood x Impact",
+    "bands": [
+      { "range": [1, 4], "label": "Low", "color": "#22c55e", "action": "Accept and monitor" },
+      { "range": [5, 9], "label": "Medium", "color": "#f59e0b", "action": "Mitigate within observation period" },
+      { "range": [10, 15], "label": "High", "color": "#f97316", "action": "Immediate mitigation, may affect audit readiness" },
+      { "range": [16, 25], "label": "Critical", "color": "#ef4444", "action": "Escalate to management, consider delaying audit" }
+    ]
+  },
+  "reviewCycle": "Annually or prior to each SOC 2 observation period",
+  "approvalAuthority": "Management / Audit Committee"
+}

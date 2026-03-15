@@ -1,0 +1,28 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated indicative evidence items for SOC 2. Organizations should adapt to their system description and auditor expectations.",
+  "evidence": [
+    { "id": "SOC-E001", "controlRef": "CC1.1", "name": "Code of Conduct", "description": "Documented code of conduct signed by all personnel", "format": "PDF", "frequency": "Annual acknowledgment", "owner": "HR Director" },
+    { "id": "SOC-E002", "controlRef": "CC1.2", "name": "Board Meeting Minutes", "description": "Board/audit committee minutes evidencing oversight of internal controls", "format": "PDF", "frequency": "Quarterly", "owner": "Board Secretary" },
+    { "id": "SOC-E003", "controlRef": "CC1.4", "name": "Training Completion Records", "description": "Security awareness and role-based training records", "format": "LMS export", "frequency": "Annual", "owner": "HR Director" },
+    { "id": "SOC-E004", "controlRef": "CC3.2", "name": "Risk Assessment Report", "description": "Annual risk assessment documenting threats, vulnerabilities, and treatment decisions", "format": "PDF", "frequency": "Annual", "owner": "Risk Manager" },
+    { "id": "SOC-E005", "controlRef": "CC4.1", "name": "Control Monitoring Reports", "description": "Continuous monitoring and periodic evaluation reports of control effectiveness", "format": "GRC tool export", "frequency": "Quarterly", "owner": "Internal Audit" },
+    { "id": "SOC-E006", "controlRef": "CC5.2", "name": "ITGC Test Results", "description": "IT General Controls testing results covering access, change, and operations", "format": "PDF/Excel", "frequency": "Annual", "owner": "IT Audit" },
+    { "id": "SOC-E007", "controlRef": "CC6.1", "name": "Access Control Policy", "description": "Documented logical access control policy and procedures", "format": "PDF", "frequency": "Annual review", "owner": "IAM Manager" },
+    { "id": "SOC-E008", "controlRef": "CC6.2", "name": "User Provisioning Records", "description": "Records of user account creation, authorization, and approval", "format": "IAM tool export", "frequency": "Per event", "owner": "IAM Manager" },
+    { "id": "SOC-E009", "controlRef": "CC6.3", "name": "Access Review Reports", "description": "Quarterly user access recertification reports", "format": "IAM tool export", "frequency": "Quarterly", "owner": "IAM Manager" },
+    { "id": "SOC-E010", "controlRef": "CC6.6", "name": "Firewall and IDS/IPS Logs", "description": "Network security device logs and rule review records", "format": "SIEM/firewall export", "frequency": "Continuous", "owner": "Security Engineer" },
+    { "id": "SOC-E011", "controlRef": "CC6.7", "name": "Encryption Standards Document", "description": "Data-in-transit and data-at-rest encryption configuration evidence", "format": "PDF/Config export", "frequency": "Annual review", "owner": "Security Architect" },
+    { "id": "SOC-E012", "controlRef": "CC7.2", "name": "SIEM Alert Reports", "description": "Security monitoring alert logs and investigation records", "format": "SIEM export", "frequency": "Continuous", "owner": "SOC Manager" },
+    { "id": "SOC-E013", "controlRef": "CC7.4", "name": "Incident Response Records", "description": "Incident tickets, response timeline, and post-incident reviews", "format": "ITSM export/PDF", "frequency": "Per incident", "owner": "Incident Response Lead" },
+    { "id": "SOC-E014", "controlRef": "CC8.1", "name": "Change Management Records", "description": "Change requests, testing evidence, approvals, and post-implementation reviews", "format": "ITSM export", "frequency": "Per change", "owner": "Change Manager" },
+    { "id": "SOC-E015", "controlRef": "CC9.1", "name": "BCP/DRP Documentation", "description": "Business continuity and disaster recovery plans with test results", "format": "PDF", "frequency": "Annual test", "owner": "BCM Manager" },
+    { "id": "SOC-E016", "controlRef": "CC9.2", "name": "Vendor Assessment Records", "description": "Vendor due diligence assessments and ongoing monitoring records", "format": "GRC tool/PDF", "frequency": "Annual per vendor", "owner": "Vendor Risk Manager" },
+    { "id": "SOC-E017", "controlRef": "A1.1", "name": "Capacity Monitoring Reports", "description": "System capacity utilization reports and scaling decisions", "format": "Monitoring tool export", "frequency": "Monthly", "owner": "Infrastructure Manager" },
+    { "id": "SOC-E018", "controlRef": "A1.3", "name": "DR Test Results", "description": "Disaster recovery test execution reports with RTO/RPO validation", "format": "PDF", "frequency": "Semi-annual", "owner": "BCM Manager" },
+    { "id": "SOC-E019", "controlRef": "PI1.2", "name": "Processing Validation Records", "description": "Input validation, processing accuracy, and output reconciliation evidence", "format": "Application logs", "frequency": "Continuous", "owner": "Application Owner" },
+    { "id": "SOC-E020", "controlRef": "C1.1", "name": "Data Classification Register", "description": "Inventory of confidential information with classification and protection controls", "format": "Excel/GRC tool", "frequency": "Quarterly update", "owner": "Data Governance" },
+    { "id": "SOC-E021", "controlRef": "P1", "name": "Privacy Notice", "description": "Published privacy notice/policy accessible to data subjects", "format": "URL/PDF", "frequency": "Annual review", "owner": "Privacy Officer" },
+    { "id": "SOC-E022", "controlRef": "P2", "name": "Consent Records", "description": "Records of data subject consent for personal information processing", "format": "CMP export", "frequency": "Per collection", "owner": "Privacy Officer" }
+  ]
+}

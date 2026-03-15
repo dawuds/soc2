@@ -1,0 +1,59 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated SOC 2 readiness assessment template. Organizations should work with their CPA firm to validate scope and criteria.",
+  "title": "SOC 2 Type II Readiness Assessment Template",
+  "description": "Checklist template for assessing organizational readiness for a SOC 2 Type II examination.",
+  "version": "1.0",
+  "categories": [
+    {
+      "name": "Pre-Engagement",
+      "items": [
+        { "id": "RA-01", "item": "Determine report type (Type I vs Type II) and observation period", "status": "not-started", "notes": "" },
+        { "id": "RA-02", "item": "Select Trust Services Categories in scope (Security + optional categories)", "status": "not-started", "notes": "" },
+        { "id": "RA-03", "item": "Define system boundaries and system description scope", "status": "not-started", "notes": "" },
+        { "id": "RA-04", "item": "Identify and engage CPA firm", "status": "not-started", "notes": "" },
+        { "id": "RA-05", "item": "Identify subservice organizations and determine carve-out vs inclusive method", "status": "not-started", "notes": "" }
+      ]
+    },
+    {
+      "name": "Governance & Control Environment",
+      "items": [
+        { "id": "RA-06", "item": "Code of conduct published and acknowledged by all personnel", "status": "not-started", "notes": "" },
+        { "id": "RA-07", "item": "Board/management oversight structure documented", "status": "not-started", "notes": "" },
+        { "id": "RA-08", "item": "Organizational chart with security roles defined", "status": "not-started", "notes": "" },
+        { "id": "RA-09", "item": "Security awareness training program operational", "status": "not-started", "notes": "" },
+        { "id": "RA-10", "item": "Risk assessment completed and documented", "status": "not-started", "notes": "" }
+      ]
+    },
+    {
+      "name": "Technical Controls",
+      "items": [
+        { "id": "RA-11", "item": "Access control policies documented and enforced", "status": "not-started", "notes": "" },
+        { "id": "RA-12", "item": "MFA implemented for production and remote access", "status": "not-started", "notes": "" },
+        { "id": "RA-13", "item": "User access reviews conducted quarterly", "status": "not-started", "notes": "" },
+        { "id": "RA-14", "item": "Change management process implemented with approvals and testing", "status": "not-started", "notes": "" },
+        { "id": "RA-15", "item": "Security monitoring (SIEM) deployed and operational", "status": "not-started", "notes": "" },
+        { "id": "RA-16", "item": "Incident response plan documented and tested", "status": "not-started", "notes": "" },
+        { "id": "RA-17", "item": "Encryption implemented for data at rest and in transit", "status": "not-started", "notes": "" },
+        { "id": "RA-18", "item": "Vulnerability management program operational", "status": "not-started", "notes": "" }
+      ]
+    },
+    {
+      "name": "Availability (if in scope)",
+      "items": [
+        { "id": "RA-19", "item": "Capacity monitoring and alerting configured", "status": "not-started", "notes": "" },
+        { "id": "RA-20", "item": "DR/BCP plans documented with defined RTO/RPO", "status": "not-started", "notes": "" },
+        { "id": "RA-21", "item": "DR test conducted and documented within last 12 months", "status": "not-started", "notes": "" }
+      ]
+    },
+    {
+      "name": "Evidence & Documentation",
+      "items": [
+        { "id": "RA-22", "item": "System description drafted covering all required sections", "status": "not-started", "notes": "" },
+        { "id": "RA-23", "item": "Control matrix mapping controls to TSC criteria", "status": "not-started", "notes": "" },
+        { "id": "RA-24", "item": "Evidence collection process established for observation period", "status": "not-started", "notes": "" },
+        { "id": "RA-25", "item": "CUECs (Complementary User Entity Controls) identified and documented", "status": "not-started", "notes": "" }
+      ]
+    }
+  ]
+}

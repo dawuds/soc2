@@ -1,0 +1,13 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "privacy",
+  "domainName": "Privacy",
+  "requirements": [
+    { "controlRef": "P1", "id": "PRV-R01", "requirement": "Provide clear, accessible privacy notices describing data collection, use, retention, disclosure, and disposal practices.", "priority": "critical", "owner": "Privacy Officer" },
+    { "controlRef": "P2", "id": "PRV-R02", "requirement": "Obtain informed consent for personal information collection and processing, providing opt-out mechanisms.", "priority": "critical", "owner": "Privacy Officer" },
+    { "controlRef": "P3", "id": "PRV-R03", "requirement": "Collect personal information only for identified, legitimate purposes with data minimization.", "priority": "high", "owner": "Privacy Officer" },
+    { "controlRef": "P4", "id": "PRV-R04", "requirement": "Limit use of personal information to stated purposes and enforce retention schedules with secure disposal.", "priority": "high", "owner": "Privacy Officer" },
+    { "controlRef": "P5", "id": "PRV-R05", "requirement": "Provide data subjects with access to their personal information and mechanisms for correction.", "priority": "high", "owner": "Privacy Officer" },
+    { "controlRef": "P8", "id": "PRV-R06", "requirement": "Monitor compliance with privacy policies and implement a process for handling privacy complaints.", "priority": "high", "owner": "Privacy Officer" }
+  ]
+}

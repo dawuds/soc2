@@ -1,0 +1,25 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Indicative mapping between SOC 2 TSC and ISO 27001:2022 Annex A.",
+  "title": "SOC 2 to ISO 27001:2022 Mapping",
+  "mappings": [
+    { "soc2Criteria": "CC1.1", "isoControl": "A.5.4", "relationship": "supports", "notes": "Management responsibilities and ethical values" },
+    { "soc2Criteria": "CC1.4", "isoControl": "A.6.3", "relationship": "supports", "notes": "Competence and awareness training" },
+    { "soc2Criteria": "CC3.2", "isoControl": "A.5.7", "relationship": "supports", "notes": "Risk identification and threat intelligence" },
+    { "soc2Criteria": "CC5.2", "isoControl": "A.8.9", "relationship": "supports", "notes": "Technology controls and configuration management" },
+    { "soc2Criteria": "CC6.1", "isoControl": "A.5.15", "relationship": "equivalent", "notes": "Access control policy and implementation" },
+    { "soc2Criteria": "CC6.2", "isoControl": "A.5.16", "relationship": "equivalent", "notes": "Identity management and user registration" },
+    { "soc2Criteria": "CC6.3", "isoControl": "A.5.18", "relationship": "equivalent", "notes": "Access rights provisioning and review" },
+    { "soc2Criteria": "CC6.4", "isoControl": "A.7.2", "relationship": "equivalent", "notes": "Physical entry controls" },
+    { "soc2Criteria": "CC6.6", "isoControl": "A.8.20", "relationship": "supports", "notes": "Network security and boundary protection" },
+    { "soc2Criteria": "CC6.7", "isoControl": "A.8.24", "relationship": "supports", "notes": "Encryption and data-in-transit protection" },
+    { "soc2Criteria": "CC6.8", "isoControl": "A.8.7", "relationship": "equivalent", "notes": "Malware protection" },
+    { "soc2Criteria": "CC7.2", "isoControl": "A.8.16", "relationship": "equivalent", "notes": "Monitoring activities" },
+    { "soc2Criteria": "CC7.4", "isoControl": "A.5.26", "relationship": "equivalent", "notes": "Incident response" },
+    { "soc2Criteria": "CC8.1", "isoControl": "A.8.32", "relationship": "equivalent", "notes": "Change management" },
+    { "soc2Criteria": "CC9.2", "isoControl": "A.5.19", "relationship": "supports", "notes": "Supplier/vendor risk management" },
+    { "soc2Criteria": "A1.3", "isoControl": "A.5.30", "relationship": "supports", "notes": "ICT readiness for business continuity" },
+    { "soc2Criteria": "C1.1", "isoControl": "A.5.12", "relationship": "supports", "notes": "Information classification" },
+    { "soc2Criteria": "P1", "isoControl": "A.5.34", "relationship": "supports", "notes": "Privacy and PII protection" }
+  ]
+}

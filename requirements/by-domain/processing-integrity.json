@@ -1,0 +1,10 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "processing-integrity",
+  "domainName": "Processing Integrity",
+  "requirements": [
+    { "controlRef": "PI1.1", "id": "PI-R01", "requirement": "Define and communicate processing integrity objectives and commitments to relevant parties.", "priority": "high", "owner": "Application Owner" },
+    { "controlRef": "PI1.2", "id": "PI-R02", "requirement": "Implement input validation, processing controls, and output verification to ensure processing accuracy and completeness.", "priority": "critical", "owner": "Application Owner" },
+    { "controlRef": "PI1.3", "id": "PI-R03", "requirement": "Implement error detection, reporting, and correction procedures to address processing errors in a timely manner.", "priority": "high", "owner": "Application Owner" }
+  ]
+}

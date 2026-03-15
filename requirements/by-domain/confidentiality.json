@@ -1,0 +1,9 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "confidentiality",
+  "domainName": "Confidentiality",
+  "requirements": [
+    { "controlRef": "C1.1", "id": "CON-R01", "requirement": "Identify, classify, and protect confidential information according to defined policies and commitments.", "priority": "critical", "owner": "Data Governance" },
+    { "controlRef": "C1.2", "id": "CON-R02", "requirement": "Securely dispose of confidential information when no longer needed per retention policies.", "priority": "high", "owner": "Data Governance" }
+  ]
+}

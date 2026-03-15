@@ -1,0 +1,34 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Domain structure based on AICPA Trust Services Categories. Descriptions are indicative — not verbatim AICPA text.",
+  "security": {
+    "name": "Security (Common Criteria)",
+    "description": "Protection of information and systems against unauthorized access, unauthorized disclosure, and damage — the mandatory category for all SOC 2 reports",
+    "controlCount": 33,
+    "criteriaRange": "CC1 – CC9"
+  },
+  "availability": {
+    "name": "Availability",
+    "description": "System availability for operation and use as committed or agreed upon",
+    "controlCount": 3,
+    "criteriaRange": "A1.1 – A1.3"
+  },
+  "processing-integrity": {
+    "name": "Processing Integrity",
+    "description": "System processing is complete, valid, accurate, timely, and authorized",
+    "controlCount": 3,
+    "criteriaRange": "PI1.1 – PI1.3"
+  },
+  "confidentiality": {
+    "name": "Confidentiality",
+    "description": "Information designated as confidential is protected as committed or agreed",
+    "controlCount": 2,
+    "criteriaRange": "C1.1 – C1.2"
+  },
+  "privacy": {
+    "name": "Privacy",
+    "description": "Personal information is collected, used, retained, disclosed, and disposed in conformity with commitments and applicable regulations",
+    "controlCount": 8,
+    "criteriaRange": "P1 – P8"
+  }
+}

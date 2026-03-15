@@ -1,0 +1,19 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Indicative mapping between SOC 2 TSC and NIST CSF 2.0.",
+  "title": "SOC 2 to NIST CSF 2.0 Mapping",
+  "mappings": [
+    { "soc2Criteria": "CC1.1-CC1.5", "nistFunction": "Govern", "nistCategory": "GV.OC", "relationship": "supports", "notes": "Control environment maps to organizational context governance" },
+    { "soc2Criteria": "CC2.1-CC2.3", "nistFunction": "Govern", "nistCategory": "GV.SC", "relationship": "supports", "notes": "Communication maps to supply chain and stakeholder communication" },
+    { "soc2Criteria": "CC3.1-CC3.4", "nistFunction": "Identify", "nistCategory": "ID.RA", "relationship": "equivalent", "notes": "Risk assessment maps directly" },
+    { "soc2Criteria": "CC4.1-CC4.2", "nistFunction": "Detect", "nistCategory": "DE.CM", "relationship": "supports", "notes": "Monitoring activities support continuous monitoring" },
+    { "soc2Criteria": "CC5.1-CC5.3", "nistFunction": "Protect", "nistCategory": "PR.IP", "relationship": "supports", "notes": "Control activities support protection processes" },
+    { "soc2Criteria": "CC6.1-CC6.3", "nistFunction": "Protect", "nistCategory": "PR.AA", "relationship": "equivalent", "notes": "Access controls map directly" },
+    { "soc2Criteria": "CC6.6-CC6.8", "nistFunction": "Protect", "nistCategory": "PR.DS", "relationship": "supports", "notes": "Boundary and malware controls support data security" },
+    { "soc2Criteria": "CC7.1-CC7.3", "nistFunction": "Detect", "nistCategory": "DE.AE", "relationship": "equivalent", "notes": "Anomaly detection and event analysis map directly" },
+    { "soc2Criteria": "CC7.4-CC7.5", "nistFunction": "Respond", "nistCategory": "RS.MA", "relationship": "equivalent", "notes": "Incident response and recovery map directly" },
+    { "soc2Criteria": "CC8.1", "nistFunction": "Protect", "nistCategory": "PR.IP", "relationship": "supports", "notes": "Change management supports configuration management" },
+    { "soc2Criteria": "CC9.1", "nistFunction": "Recover", "nistCategory": "RC.RP", "relationship": "supports", "notes": "Risk mitigation supports recovery planning" },
+    { "soc2Criteria": "A1.1-A1.3", "nistFunction": "Recover", "nistCategory": "RC.RP", "relationship": "supports", "notes": "Availability criteria support recovery planning" }
+  ]
+}

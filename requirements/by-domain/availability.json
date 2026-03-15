@@ -1,0 +1,10 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "availability",
+  "domainName": "Availability",
+  "requirements": [
+    { "controlRef": "A1.1", "id": "AVL-R01", "requirement": "Monitor and manage system processing capacity to ensure availability commitments are met.", "priority": "high", "owner": "Infrastructure Manager" },
+    { "controlRef": "A1.2", "id": "AVL-R02", "requirement": "Implement environmental protections and recovery infrastructure to support system availability.", "priority": "high", "owner": "Infrastructure Manager" },
+    { "controlRef": "A1.3", "id": "AVL-R03", "requirement": "Test recovery plan procedures at planned intervals to validate RTO and RPO objectives.", "priority": "critical", "owner": "BCM Manager" }
+  ]
+}

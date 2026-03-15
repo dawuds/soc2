@@ -1,0 +1,22 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Indicative requirements for SOC 2 Security (Common Criteria). Not verbatim AICPA text.",
+  "domain": "security",
+  "domainName": "Security (Common Criteria)",
+  "requirements": [
+    { "controlRef": "CC1.1", "id": "SEC-R01", "requirement": "Demonstrate commitment to integrity and ethical values through a code of conduct, ethics training, and enforcement mechanisms.", "priority": "critical", "owner": "CEO / Board" },
+    { "controlRef": "CC1.4", "id": "SEC-R02", "requirement": "Attract, develop, and retain competent individuals with security-relevant skills through hiring, training, and performance management.", "priority": "high", "owner": "HR Director" },
+    { "controlRef": "CC3.2", "id": "SEC-R03", "requirement": "Conduct periodic risk assessments to identify threats and vulnerabilities to the system, analysing likelihood and impact.", "priority": "critical", "owner": "Risk Manager" },
+    { "controlRef": "CC4.1", "id": "SEC-R04", "requirement": "Implement ongoing monitoring and periodic evaluations to assess the design and operating effectiveness of internal controls.", "priority": "critical", "owner": "Internal Audit" },
+    { "controlRef": "CC5.2", "id": "SEC-R05", "requirement": "Deploy IT general controls over technology infrastructure including access management, change management, and operations.", "priority": "critical", "owner": "IT Director" },
+    { "controlRef": "CC6.1", "id": "SEC-R06", "requirement": "Implement logical access security controls including authentication, authorization, and access monitoring.", "priority": "critical", "owner": "IAM Manager" },
+    { "controlRef": "CC6.3", "id": "SEC-R07", "requirement": "Authorize, modify, and remove access to systems and data based on defined roles and responsibilities, with periodic access reviews.", "priority": "critical", "owner": "IAM Manager" },
+    { "controlRef": "CC6.6", "id": "SEC-R08", "requirement": "Implement boundary protection controls to prevent, detect, and respond to threats from external sources.", "priority": "high", "owner": "Security Engineer" },
+    { "controlRef": "CC6.7", "id": "SEC-R09", "requirement": "Protect data in transit through encryption and restrict unauthorized data movement.", "priority": "high", "owner": "Security Architect" },
+    { "controlRef": "CC7.2", "id": "SEC-R10", "requirement": "Monitor systems for anomalous behaviour indicative of security incidents using SIEM and alerting mechanisms.", "priority": "critical", "owner": "SOC Manager" },
+    { "controlRef": "CC7.4", "id": "SEC-R11", "requirement": "Maintain and execute an incident response program to understand, contain, remediate, and communicate security incidents.", "priority": "critical", "owner": "Incident Response Lead" },
+    { "controlRef": "CC8.1", "id": "SEC-R12", "requirement": "Implement a formal change management process with authorization, testing, approval, and documentation for all system changes.", "priority": "critical", "owner": "Change Manager" },
+    { "controlRef": "CC9.1", "id": "SEC-R13", "requirement": "Identify, assess, and mitigate risks from potential business disruptions including disaster recovery and business continuity.", "priority": "high", "owner": "BCM Manager" },
+    { "controlRef": "CC9.2", "id": "SEC-R14", "requirement": "Assess and manage risks associated with vendors and business partners through due diligence and ongoing monitoring.", "priority": "high", "owner": "Vendor Risk Manager" }
+  ]
+}
